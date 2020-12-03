@@ -4,7 +4,7 @@ import axios from 'axios';
 import { navigate } from '@reach/router';
 
 const NewAuthor = props => {
-    const [form, setForm] = useState{
+    const [form, setForm] = useState({
         name: "",
     })
     const [error, setError] =useState({});
