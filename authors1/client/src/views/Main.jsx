@@ -16,7 +16,7 @@ const Main = props => {
     }
     return(
         <div>
-            <h4>< a href="/new">Add an author</ a></h4>
+            <h4><a href="/new">Add an author</ a></h4>
             <h4 className="text-success">We have quotes by:</h4>
             <table className="table table-bordered">
                 <tr>
